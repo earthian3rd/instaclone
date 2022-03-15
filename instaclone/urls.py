@@ -14,6 +14,8 @@ from django.contrib import admin
 from django.urls import path
 from project.views import Home
 
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', Home.as_view(), name='home'),  #views.py에 class로 정의할때
