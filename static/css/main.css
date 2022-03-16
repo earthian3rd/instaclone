@@ -102,6 +102,20 @@ input {
   backdrop-filter: blur(1.5px);
   -webkit-backdrop-filter: blur(1.5px);
 }
+.modal_overlay2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none; /* flex or none */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+}
 
 .modal_window {
   background: white;
@@ -116,6 +130,12 @@ input {
 }
 .upload-space {
   text-align: center;
+
+}
+.upload-space2 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 .content{
   outline: 2px dashed #92b0b3 ;
